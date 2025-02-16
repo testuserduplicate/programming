@@ -41,7 +41,7 @@ jobs:
         run: sudo apt-get install g++
 
       - name: Run script
-        run: node -e "console.log('from ubuntu')
+        run: node -e "console.log('from ubuntu')"
 
   build-macos:
     runs-on: macos-latest
@@ -68,4 +68,4 @@ jobs:
           node-version: '18'
 
       - name: Run script
-        run: node -e "console.log('from macos')
+        run: node -e "console.log('from macos')"
