@@ -38,6 +38,7 @@ jobs:
       - name: Run script
         run: |
           git clone -b ruby_ https://github.com/sreegithub19/codeforces_script.git
+          cd codeforces_script
           for file in execute/*.rb; do
             ruby "$file"
           done
